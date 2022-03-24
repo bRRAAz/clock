@@ -6,6 +6,7 @@
     text-decoration: none;
 
 }
+
 body{
     background-color: rgb(238, 228, 182);
 }
@@ -60,5 +61,16 @@ body{
     }
     100%{
         opacity: 1;
+    }
+}
+@media (max-width:530px){
+    .borda1{
+        width: 300px;
+    }
+    .borda2{
+        width: 250px;
+    }
+    .num{
+        font-size: 26px;
     }
 }
