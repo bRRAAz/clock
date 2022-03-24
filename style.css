@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(238, 228, 182);
+}
+.section1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.borda1{
+    background-color: rgb(153, 150, 150);
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    border: 5px rgb(22, 22, 22) solid;
+}
+.borda2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(41, 53, 42);
+    width: 450px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px rgb(29, 29, 29) solid;
+}
+.red-btn{
+    position: absolute;
+    left: 50%;
+    top: -20%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 23px;
+    background-color: rgb(243, 64, 64);
+    border-radius: 20px;
+    border: 5px rgb(22, 22, 22) solid;
+}
+.num{
+    position: absolute;
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(140, 177, 140);
+}
+@keyframes pisca {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
